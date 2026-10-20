@@ -1,0 +1,27 @@
+# Virtual Environment (Jangan di-upload, ukurannya sangat besar & spesifik untuk laptopmu saja)
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm & Editor Cache
+.idea/
+.vscode/
+*.swp
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MLflow Runs & Artifacts lokal
+mlruns/
+.trash/
+
+# File Backup Lokal
+prediksi_backup.py
+
+# Windows / OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
